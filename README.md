@@ -80,7 +80,7 @@ Now go to XFCE4 Appearence and the theme should be there.
 ### Installing Candy Icons
 
 ```sh
-git clone https://github.com/EliverLara/Nordic ~/.icons/"Candy Icons"
+git clone https://github.com/EliverLara/candy-icons ~/.icons/"Candy Icons"
 ```
 
 Now go to XFCE4 Appearence and the icons should be there.

@@ -8,6 +8,7 @@
   <a href="#about">About</a> •
   <a href="#features">Features</a> •
   <a href="#usage">Usage</a> •
+  <a href="#screenshots">Screenshots</a> •
   <a href="#credits">Credits</a> •
   <a href="#license">License</a>
 </p>

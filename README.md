@@ -17,9 +17,10 @@
 
 ## About
 
-Working with FIDE oficial data is not simple, mainly because they don't have an API. That's the reason I made a simple API with FastAPI to scrape the data from their own website and provide it as JSON over HTTP requests.
+After some time using Void Linux, I installed some custom themes config and user configs for some essential programs like Wireplumber and Chrony. And now I'm sharing it, feel free to write a issue if you find some problem.
 
 ## Features
+
 Besides the default programs and configs on Void Linux XFCE4 image, my custom config includes:
 
 - Themes:

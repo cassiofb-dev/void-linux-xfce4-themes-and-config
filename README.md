@@ -39,6 +39,8 @@ Besides the default programs and configs on Void Linux XFCE4 image, my custom co
   - [xfce4-screenshooter](https://gitlab.xfce.org/apps/xfce4-screenshooter)
   - [Wireplumber](https://gitlab.freedesktop.org/pipewire/wireplumber)
   - [Pipewire](https://gitlab.freedesktop.org/pipewire/pipewire)
+- Date and Time
+  - [Chrony](https://chrony.tuxfamily.org/)
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 
 ## Usage
@@ -54,7 +56,7 @@ sudo xbps-install git
 If you want to install all my programs:
 
 ```sh
-sudo xbps-install htop btop neofetch git vscode obs docker docker-compose xfce4-pulseaudio-plugin xfce4-screenshooter pipewire wireplumber
+sudo xbps-install htop btop neofetch git vscode obs docker docker-compose xfce4-pulseaudio-plugin xfce4-screenshooter pipewire wireplumber chrony
 ```
 
 And make sure your bashrc has:
@@ -117,6 +119,14 @@ Now for pipewire to run on startup:
 
 ```sh
 ln -s /usr/share/applications/pipewire.desktop ~/.config/xdg/autostart/pipewire.desktop
+```
+
+### Date and Time
+
+With Chrony already installed just run to enable Crhony service on runit:
+
+```sh
+sudo ln -s /etc/sv/chronyd /var/service
 ```
 
 ### Nerd Fonts

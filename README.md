@@ -115,10 +115,10 @@ If you already installed pipewire and wireplumber you can paste [this file](pipe
 ~/.config/pipewire/pipewire.conf
 ```
 
-Now for pipewire to run on startup:
+Now for pipewire to run on startup (if autostart folder does not exist create one):
 
 ```sh
-ln -s /usr/share/applications/pipewire.desktop ~/.config/xdg/autostart/pipewire.desktop
+ln -s /usr/share/applications/pipewire.desktop ~/.config/autostart/pipewire.desktop
 ```
 
 ### Date and Time

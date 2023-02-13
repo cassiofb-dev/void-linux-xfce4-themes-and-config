@@ -12,7 +12,7 @@
   <a href="#license">License</a>
 </p>
 
-![example](screenshot.png)
+![screenshot](screenshot.png)
 
 ## About
 
@@ -138,6 +138,22 @@ sudo xbps-install noto-fonts-emoji nerd-fonts
 ```
 
 This is a huge pack with lots of fonts, pick you most like on XFCE4 Appearence.
+
+## Screenshots
+
+![firefox](images/firefox.png)
+
+---
+
+![vscode](images/vscode.png)
+
+---
+
+![thunar](images/thunar.png)
+
+---
+
+![obs](images/obs.png)
 
 ## Credits
 

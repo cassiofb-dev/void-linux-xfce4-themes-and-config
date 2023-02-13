@@ -72,7 +72,7 @@ export XDG_CONFIG_HOME="$HOME/.config"
 ### Installing Nordic Theme
 
 ```sh
-git clone https://github.com/EliverLara/Nordic "~/.themes/Nordic Theme"
+git clone https://github.com/EliverLara/Nordic ~/.themes/"Nordic Theme"
 ```
 
 Now go to XFCE4 Appearence and the theme should be there.
@@ -80,7 +80,7 @@ Now go to XFCE4 Appearence and the theme should be there.
 ### Installing Candy Icons
 
 ```sh
-git clone https://github.com/EliverLara/Nordic "~/.icons/Candy Icons"
+git clone https://github.com/EliverLara/Nordic ~/.icons/"Candy Icons"
 ```
 
 Now go to XFCE4 Appearence and the icons should be there.

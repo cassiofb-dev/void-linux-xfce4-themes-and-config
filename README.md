@@ -125,7 +125,7 @@ ln -s /usr/share/applications/pipewire.desktop ~/.config/autostart/pipewire.desk
 
 ### Date and Time
 
-With Chrony already installed just run to enable Crhony service on runit:
+With Chrony already installed just run to enable Chrony service on runit:
 
 ```sh
 sudo ln -s /etc/sv/chronyd /var/service
@@ -170,6 +170,6 @@ MIT
 
 ---
 
-> [Website](https://cassiofernando.netlify.app/) &nbsp;&middot;&nbsp;
+> [Website](https://cassio-fernando.netlify.app/) &nbsp;&middot;&nbsp;
 > GitHub [@cassiofb-dev](https://github.com/cassiofb-dev) &nbsp;&middot;&nbsp;
 > Twitter [@cassiofb_dev](https://twitter.com/cassiofb_dev)

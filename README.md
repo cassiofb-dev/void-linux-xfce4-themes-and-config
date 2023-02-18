@@ -95,7 +95,7 @@ Clone the repository:
 git clone https://github.com/dracula/xfce4-terminal.git
 ```
 
-Now open the folde and put the file ``Dracula.theme`` on:
+Now open the folder and put the file ``Dracula.theme`` on:
 
 ```sh
  ~/.local/share/xfce4/terminal/colorschemes
@@ -117,7 +117,7 @@ If you already installed pipewire and wireplumber you can paste [this file](pipe
 ~/.config/pipewire/pipewire.conf
 ```
 
-Now for pipewire to run on startup (if autostart folder does not exist create one):
+Now for pipewire to run on startup (if autostart folder does not exist, create one on ``~/.config/autostart/``):
 
 ```sh
 ln -s /usr/share/applications/pipewire.desktop ~/.config/autostart/pipewire.desktop
